@@ -233,7 +233,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-.AS-section-03 .AS-tips li a h5 {
+.AS-section-03 .AS-tips li a .h5 {
   color: #fff;
   font-size: calc(var(--AS-font-24) + 4px);
   font-style: normal;
