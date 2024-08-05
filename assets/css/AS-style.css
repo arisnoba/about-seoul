@@ -10,7 +10,7 @@ body {
   --AS-font-24: 18px;
   --AS-font-16: 14px;
   --AS-section-padding: 32px;
-  --AS-swiper-padding: 24px;
+  --AS-swiper-padding: 20px;
 }
 
 .AS-wrap {
@@ -37,7 +37,6 @@ body {
 .AS-wrap .container .AS-contents h3 {
   color: #000;
   font-size: var(--AS-font-40);
-  font-style: normal;
   font-weight: 900;
   line-height: normal;
   letter-spacing: -0.8px;
@@ -46,7 +45,6 @@ body {
 .AS-wrap .container .AS-contents h4 {
   color: #000;
   font-size: var(--AS-font-24);
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: -0.48px;
@@ -54,7 +52,6 @@ body {
 .AS-wrap .container .AS-contents p {
   color: #6f6b68;
   font-size: var(--AS-font-16);
-  font-style: normal;
   font-weight: 500;
   line-height: 180%;
   letter-spacing: -0.32px;
@@ -65,7 +62,7 @@ body {
 .AS-wrap .AS-kv {
   position: relative;
   width: 100%;
-  height: 80dvh;
+  height: 80svh;
   padding: 10vh 20px;
   aspect-ratio: 2/1;
 }
@@ -234,9 +231,9 @@ body {
   background-size: cover;
 }
 .AS-section-03 .AS-tips li a .h5 {
+  display: block;
   color: #fff;
   font-size: calc(var(--AS-font-24) + 4px);
-  font-style: normal;
   font-weight: 700;
   line-height: 1.2em;
   letter-spacing: -0.56px;
@@ -318,7 +315,6 @@ body {
   font-size: var(--AS-font-16);
   display: block;
   color: #204ff1;
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: -0.32px;
@@ -327,7 +323,6 @@ body {
 .AS-citySwiper .card p {
   font-size: var(--AS-font-16);
   color: #6f6b68;
-  font-style: normal;
   font-weight: 500;
   line-height: 180%;
   letter-spacing: -0.32px;
@@ -370,7 +365,7 @@ body {
     --AS-font-24: 20px;
     --AS-font-16: 14px;
     --AS-section-padding: 32px;
-    --AS-swiper-padding: 32px;
+    --AS-swiper-padding: 24px;
   }
 }
 @media (min-width: 768px) {
