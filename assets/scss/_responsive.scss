@@ -1,0 +1,134 @@
+/* 미디어 쿼리 시작 */
+@media (min-width: 375px) {
+   :root {
+      --AS-font-40: 32px;
+      --AS-font-32: 24px;
+      --AS-font-24: 20px;
+      --AS-font-16: 14px;
+      --AS-section-padding: 32px;
+      --AS-swiper-padding: 32px;
+   }
+}
+
+@media (min-width: 768px) {
+   :root {
+      --AS-font-40: 40px;
+      --AS-font-32: 32px;
+      --AS-font-24: 24px;
+      --AS-font-16: 16px;
+      --AS-section-padding: 40px;
+      --AS-swiper-padding: 40px;
+   }
+
+   .AS-wrap {
+      .AS-kv {
+         position: relative;
+         width: 100%;
+         max-height: 940px;
+         height: 100vh;
+         padding: 200px 24px;
+         aspect-ratio: 2/1;
+
+         &-title {
+            text-align: center;
+            img {
+               max-width: 100%;
+               display: inline-block;
+            }
+         }
+      }
+   }
+
+   .AS-section-03 {
+      .AS-tips {
+         flex-wrap: nowrap;
+         gap: 24px;
+
+         li {
+            a {
+               aspect-ratio: 1/1;
+               padding: 24px;
+            }
+         }
+      }
+   }
+}
+
+@media (min-width: 992px) {
+   :root {
+      --AS-font-40: 40px;
+      --AS-font-32: 32px;
+      --AS-font-24: 24px;
+      --AS-font-16: 16px;
+      --AS-section-padding: 50px;
+      --AS-swiper-padding: 40px;
+   }
+
+   .AS-section-02 {
+      padding-inline: 20px;
+
+      .AS-contents-body {
+         padding-inline: 0;
+         gap: 48px;
+         flex-direction: row-reverse;
+      }
+
+      .AS-map {
+         display: flex;
+         position: relative;
+         width: 100%;
+         flex-basis: 50%;
+         aspect-ratio: 1.23/1;
+      }
+
+      .padding {
+         width: 50%;
+         flex-basis: 50%;
+      }
+   }
+
+   .AS-section-03 {
+      .AS-tips {
+         gap: 32px;
+
+         li {
+            a {
+               aspect-ratio: 1/1;
+               padding: 32px;
+            }
+         }
+      }
+   }
+}
+
+@media (min-width: 1200px) {
+   :root {
+      --AS-font-40: 40px;
+      --AS-font-32: 32px;
+      --AS-font-24: 24px;
+      --AS-font-16: 16px;
+      --AS-section-padding: 60px;
+      --AS-swiper-padding: 40px;
+   }
+
+   .AS-section-01 {
+      .AS-contents-body {
+         padding-inline: 0;
+      }
+   }
+
+   .AS-section-02,
+   .AS-section-03 {
+      padding-inline: 0;
+   }
+
+   .AS-section-03 {
+      .AS-tips {
+         li {
+            a {
+               aspect-ratio: 1/1;
+            }
+         }
+      }
+   }
+}
