@@ -121,13 +121,20 @@ body {
       transition: all 150ms;
       fill: #e3e3e3;
       -webkit-tap-highlight-color: transparent;
+
       &.selected-path {
-         fill: #204ff1;
+         fill: #204ff1; // 선택된 path의 스타일
       }
 
-      /* 중복된 클래스 제거 */
       &:not(.selected-path):hover {
-         fill: #949494;
+         fill: #949494; // 선택되지 않은 path에 대한 hover 스타일
+      }
+
+      // 모바일에서는 hover 효과를 비활성화
+      @media (max-width: 767px) {
+         &:not(.selected-path):hover {
+            fill: #e3e3e3; // 모바일에서 hover 시 색상 변화 없음
+         }
       }
    }
 

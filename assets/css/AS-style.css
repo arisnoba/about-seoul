@@ -115,13 +115,17 @@ body {
   transition: all 150ms;
   fill: #e3e3e3;
   -webkit-tap-highlight-color: transparent;
-  /* 중복된 클래스 제거 */
 }
 .AS-section-02 path.selected-path {
   fill: #204ff1;
 }
 .AS-section-02 path:not(.selected-path):hover {
   fill: #949494;
+}
+@media (max-width: 767px) {
+  .AS-section-02 path:not(.selected-path):hover {
+    fill: #e3e3e3;
+  }
 }
 .AS-section-02 .AS-contents-body {
   display: -webkit-box;
