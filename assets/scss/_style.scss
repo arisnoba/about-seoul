@@ -1,6 +1,11 @@
+/* 사이트 반영 시 삭제 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titan+One&display=swap');
+
 body {
+   /* 사이트 반영 시 삭제 */
    padding: 0;
    margin: 0;
+   font-family: 'Noto Sans KR', sans-serif;
 }
 
 :root {
@@ -33,7 +38,7 @@ body {
          h3 {
             color: #000;
             font-size: var(--AS-font-40);
-            font-weight: 900;
+            font-weight: 800;
             line-height: normal;
             letter-spacing: -0.8px;
             margin-bottom: calc(var(--AS-font-40) - 8px);
@@ -50,7 +55,7 @@ body {
          p {
             color: #6f6b68;
             font-size: var(--AS-font-16);
-            font-weight: 500;
+            font-weight: 400;
             line-height: 180%;
             letter-spacing: -0.32px;
             & + p {
@@ -67,12 +72,13 @@ body {
       padding: 10vh 20px;
       aspect-ratio: 2/1;
 
-      &-title {
+      h1 {
          text-align: center;
-         img {
-            max-width: 100%;
-            display: inline-block;
-         }
+         color: #fff;
+         font-weight: bold;
+         font-size: calc(var(--AS-font-40) * 1.8);
+         line-height: 1.2;
+         letter-spacing: -0.04em;
       }
 
       &-bg {

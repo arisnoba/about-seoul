@@ -28,7 +28,9 @@
          height: 100vh;
          padding: 200px 24px;
          aspect-ratio: 2/1;
-
+         .d-block {
+            display: none;
+         }
          &-title {
             text-align: center;
             img {
