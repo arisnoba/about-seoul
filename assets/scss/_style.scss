@@ -2,7 +2,7 @@
 	체크 및 수정이 필요한 부분에 "developer setting" 코멘트 추가했습니다.
 	폰트 중복 선언으로 사이트 반영 시 삭제
 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titan+One&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titan+One&display=swap');
 
 body {
    /* 
@@ -11,7 +11,7 @@ body {
 	*/
    padding: 0;
    margin: 0;
-   font-family: 'Noto Sans KR', sans-serif;
+   // font-family: 'Noto Sans KR', sans-serif;
 }
 
 :root {
