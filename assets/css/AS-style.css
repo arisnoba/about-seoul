@@ -1,8 +1,14 @@
 @charset "UTF-8";
-/* 사이트 반영 시 삭제 */
+/* 
+	체크 및 수정이 필요한 부분에 "developer setting" 코멘트 추가했습니다.
+	폰트 중복 선언으로 사이트 반영 시 삭제
+*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titan+One&display=swap");
 body {
-  /* 사이트 반영 시 삭제 */
+  /* 
+  developer setting
+  사이트 반영 시 body class 삭제 
+  */
   padding: 0;
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
@@ -22,6 +28,10 @@ body {
   overflow-wrap: anywhere;
 }
 .AS-wrap * {
+  /* 
+  developer setting
+  미리 선언 되어 있다면 삭제 
+  */
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -106,6 +116,8 @@ body {
 
 .AS-section-02 {
   padding-inline: 20px;
+  /* developer setting */
+  /* padding-bottom: 0 !important; */
 }
 .AS-section-02 svg {
   width: 100%;
@@ -124,7 +136,7 @@ body {
 .AS-section-02 path:not(.selected-path):hover {
   fill: #949494;
 }
-@media (max-width: 767px) {
+@media (hover: none) and (pointer: coarse) {
   .AS-section-02 path:not(.selected-path):hover {
     fill: #e3e3e3;
   }
@@ -138,10 +150,19 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
-  /* 중복된 grid 스타일 제거 */
 }
 .AS-section-02 .AS-map {
   display: block;
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  aspect-ratio: 1.23/1;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.AS-section-02 .AS-map .map-wrap {
   position: relative;
   width: 100%;
   max-width: 90vw;
@@ -177,6 +198,30 @@ body {
           backdrop-filter: blur(2px);
   padding: 4px 8px;
   border-radius: 8px;
+  text-align: center;
+}
+.AS-section-02 .index.size-en {
+  font-size: 11px;
+}
+.AS-section-02 .index.size-en.nw {
+  top: 35%;
+  left: 18%;
+}
+.AS-section-02 .index.size-en.ne {
+  top: 28%;
+  right: 18%;
+}
+.AS-section-02 .index.size-en.ct {
+  top: 48%;
+  left: 45%;
+}
+.AS-section-02 .index.size-en.sw {
+  bottom: 18%;
+  left: 15%;
+}
+.AS-section-02 .index.size-en.se {
+  bottom: 18%;
+  right: 15%;
 }
 .AS-section-02 .index.nw {
   top: 40%;
@@ -202,6 +247,8 @@ body {
 .AS-section-03 {
   padding-inline: 20px;
   border-top: 1px solid #d9d8d3;
+  /* developer setting */
+  /* padding-bottom: 0 !important; */
 }
 .AS-section-03 .AS-tips {
   display: -webkit-box;
@@ -223,7 +270,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #faebd7; /* 컬러를 헥스코드로 변경 */
+  background-color: #faebd7;
   aspect-ratio: 2/1.5;
   padding: 24px;
   -webkit-box-pack: justify;
@@ -399,6 +446,29 @@ body {
   .AS-wrap .AS-kv-title img {
     max-width: 100%;
     display: inline-block;
+  }
+  .AS-section-02 .index.size-en {
+    font-size: 12px;
+  }
+  .AS-section-02 .index.size-en.nw {
+    top: 40%;
+    left: 28%;
+  }
+  .AS-section-02 .index.size-en.ne {
+    top: 35%;
+    right: 23%;
+  }
+  .AS-section-02 .index.size-en.ct {
+    top: 50.5%;
+    left: 48.5%;
+  }
+  .AS-section-02 .index.size-en.sw {
+    bottom: 25%;
+    left: 20%;
+  }
+  .AS-section-02 .index.size-en.se {
+    bottom: 20%;
+    right: 20%;
   }
   .AS-section-03 .AS-tips {
     -ms-flex-wrap: nowrap;

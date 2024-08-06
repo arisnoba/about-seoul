@@ -4,7 +4,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>(Dev)SEOUL MY SOUL</title>
-      <!-- Link Swiper's CSS -->
+      <!-- Swiper's CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
       <link rel="stylesheet" href="/assets/css/AS-style.css?after4" />
    </head>
@@ -39,6 +39,11 @@
                <img src="/assets/img/about-seoul.jpg" alt="" />
             </section>
             <section class="AS-contents AS-section-02">
+               <!-- developer setting
+						기본 사이트 Footer에 여백이 있어서 .AS-section-02의 하단 여백이 필요없다면
+						스타일 시트 수정해야합니다. 
+						"developer setting" 주석 참고
+					-->
                <div class="header"><h3>서울 지역 소개</h3></div>
                <div class="AS-contents-body">
                   <div class="AS-map">
@@ -67,6 +72,9 @@
                         </defs>
                      </svg>
                      <div class="index-container">
+                        <!-- developer setting
+									.size-en 추가 시 폰트 사이즈 줄어듬 (영문 페이지 참고)
+								-->
                         <div class="index nw" data-index="1"><span>서북권</span></div>
                         <div class="index ne" data-index="2"><span>동북권</span></div>
                         <div class="index ct" data-index="0"><span>도심권</span></div>
@@ -189,48 +197,6 @@
                      <div class="swiper-pagination"></div>
                   </div>
                </div>
-            </section>
-
-            <section class="AS-contents AS-section-03">
-               <h3>Travel Tips</h3>
-               <ul class="AS-tips">
-                  <li>
-                     <!-- developer setting -->
-                     <a href="#" style="background-image: url(/assets/img/img-season.jpg)">
-                        <span class="title">
-                           <!-- <span>Travel Tips</span> -->
-                           <span class="h5">Season</span>
-                        </span>
-                        <span class="icon">
-                           <img src="/assets/img/arrow-up-right.svg" alt="link" />
-                        </span>
-                     </a>
-                  </li>
-                  <li>
-                     <!-- developer setting -->
-                     <a href="#" style="background-image: url(/assets/img/img-etiquette.jpg)">
-                        <span class="title">
-                           <!-- <span>Travel Tips</span> -->
-                           <span class="h5">Etiquette</span>
-                        </span>
-                        <span class="icon">
-                           <img src="/assets/img/arrow-up-right.svg" alt="link" />
-                        </span>
-                     </a>
-                  </li>
-                  <li>
-                     <!-- developer setting -->
-                     <a href="#" style="background-image: url(/assets/img/img-holidays.jpg)">
-                        <span class="title">
-                           <!-- <span>Travel Tips</span> -->
-                           <span class="h5">National Holidays</span>
-                        </span>
-                        <span class="icon">
-                           <img src="/assets/img/arrow-up-right.svg" alt="link" />
-                        </span>
-                     </a>
-                  </li>
-               </ul>
             </section>
          </div>
       </div>

@@ -40,7 +40,33 @@
          }
       }
    }
-
+   .AS-section-02 {
+      .index {
+         &.size-en {
+            font-size: 12px;
+            &.nw {
+               top: 40%;
+               left: 28%;
+            }
+            &.ne {
+               top: 35%;
+               right: 23%;
+            }
+            &.ct {
+               top: 50.5%;
+               left: 48.5%;
+            }
+            &.sw {
+               bottom: 25%;
+               left: 20%;
+            }
+            &.se {
+               bottom: 20%;
+               right: 20%;
+            }
+         }
+      }
+   }
    .AS-section-03 {
       .AS-tips {
          flex-wrap: nowrap;

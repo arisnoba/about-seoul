@@ -1,8 +1,14 @@
-/* 사이트 반영 시 삭제 */
+/* 
+	체크 및 수정이 필요한 부분에 "developer setting" 코멘트 추가했습니다.
+	폰트 중복 선언으로 사이트 반영 시 삭제
+*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titan+One&display=swap');
 
 body {
-   /* 사이트 반영 시 삭제 */
+   /* 
+	developer setting
+	사이트 반영 시 body class 삭제 
+	*/
    padding: 0;
    margin: 0;
    font-family: 'Noto Sans KR', sans-serif;
@@ -21,6 +27,10 @@ body {
    word-break: keep-all;
    overflow-wrap: anywhere;
    * {
+      /* 
+		developer setting
+		미리 선언 되어 있다면 삭제 
+		*/
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -113,7 +123,8 @@ body {
 
 .AS-section-02 {
    padding-inline: 20px;
-
+   /* developer setting */
+   /* padding-bottom: 0 !important; */
    svg {
       width: 100%;
       margin: 0 auto;
@@ -123,20 +134,20 @@ body {
       cursor: pointer;
       transition: all 150ms;
       fill: #e3e3e3;
-      -webkit-tap-highlight-color: transparent;
+      -webkit-tap-highlight-color: transparent; // 터치 강조 색상 제거
 
       &.selected-path {
-         fill: #204ff1; // 선택된 path의 스타일
+         fill: #204ff1;
       }
 
       &:not(.selected-path):hover {
-         fill: #949494; // 선택되지 않은 path에 대한 hover 스타일
+         fill: #949494;
       }
 
-      // 모바일에서는 hover 효과를 비활성화
-      @media (max-width: 767px) {
+      // 터치 디바이스에서 hover 효과 비활성화
+      @media (hover: none) and (pointer: coarse) {
          &:not(.selected-path):hover {
-            fill: #e3e3e3; // 모바일에서 hover 시 색상 변화 없음
+            fill: #e3e3e3;
          }
       }
    }
@@ -145,7 +156,8 @@ body {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      /* 중복된 grid 스타일 제거 */
+      // align-items: center;
+      // justify-content: center;
    }
 
    .AS-map {
@@ -155,7 +167,21 @@ body {
       max-width: 90vw;
       aspect-ratio: 1.23/1;
       margin: 0 auto;
-
+      align-items: center;
+      .map-wrap {
+         position: relative;
+         width: 100%;
+         max-width: 90vw;
+         aspect-ratio: 1.23/1;
+         margin: 0 auto;
+      }
+      // .index-container {
+      //    position: absolute;
+      //    width: 100%;
+      //    max-width: 90vw;
+      //    aspect-ratio: 1.23/1;
+      //    margin: 0 auto;
+      // }
       svg {
          position: relative;
       }
@@ -181,27 +207,46 @@ body {
       backdrop-filter: blur(2px);
       padding: 4px 8px;
       border-radius: 8px;
-
+      text-align: center;
+      &.size-en {
+         font-size: 11px;
+         &.nw {
+            top: 35%;
+            left: 18%;
+         }
+         &.ne {
+            top: 28%;
+            right: 18%;
+         }
+         &.ct {
+            top: 48%;
+            left: 45%;
+         }
+         &.sw {
+            bottom: 18%;
+            left: 15%;
+         }
+         &.se {
+            bottom: 18%;
+            right: 15%;
+         }
+      }
       &.nw {
          top: 40%;
          left: 32%;
       }
-
       &.ne {
          top: 35%;
          right: 28%;
       }
-
       &.ct {
          top: 50.5%;
          left: 48.5%;
       }
-
       &.sw {
          bottom: 25%;
          left: 28%;
       }
-
       &.se {
          bottom: 20%;
          right: 25%;
@@ -212,7 +257,8 @@ body {
 .AS-section-03 {
    padding-inline: 20px;
    border-top: 1px solid #d9d8d3;
-
+   /* developer setting */
+   /* padding-bottom: 0 !important; */
    .AS-tips {
       display: flex;
       list-style: none;
@@ -228,7 +274,7 @@ body {
 
          a {
             display: flex;
-            background-color: #faebd7; /* 컬러를 헥스코드로 변경 */
+            background-color: #faebd7;
             aspect-ratio: 2/1.5;
             padding: 24px;
             justify-content: space-between;
