@@ -283,10 +283,11 @@ body {
 .AS-section-03 .AS-tips li a .h5 {
   display: block;
   color: #fff;
-  font-size: calc(var(--AS-font-24) + 4px);
+  font-size: calc(var(--AS-font-24));
   font-weight: 700;
   line-height: 1.2em;
   letter-spacing: -0.56px;
+  line-height: 40px;
 }
 .AS-section-03 .AS-tips li a .icon {
   display: -webkit-box;
