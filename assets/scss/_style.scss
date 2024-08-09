@@ -325,21 +325,23 @@ body {
    }
 
    .AS-swiper-button {
-      top: 0;
+      top: 0 !important;
       height: var(--AS-swiper-padding);
       width: var(--AS-swiper-padding);
-
+      margin: 0 !important;
       &::after {
          font-size: calc(var(--AS-swiper-padding) / 2);
          color: #000;
       }
 
       &-prev {
-         left: 0;
+         left: 0 !important;
+         right: none !important;
       }
 
       &-next {
-         right: 0;
+         right: 0 !important;
+         left: none !important;
       }
    }
 
@@ -384,7 +386,7 @@ body {
    ol {
       list-style: none;
       padding: 0;
-      margin: auto 0 0;
+      margin: auto 0 0 !important;
       display: flex;
       flex-wrap: wrap;
       gap: 4px;
@@ -400,6 +402,7 @@ body {
          font-weight: 500;
          line-height: 1em;
          letter-spacing: -0.28px;
+         margin: 0 !important;
       }
    }
 }

@@ -327,19 +327,22 @@ body {
   height: var(--AS-swiper-padding);
 }
 .AS-citySwiper .AS-swiper-button {
-  top: 0;
+  top: 0 !important;
   height: var(--AS-swiper-padding);
   width: var(--AS-swiper-padding);
+  margin: 0 !important;
 }
 .AS-citySwiper .AS-swiper-button::after {
   font-size: calc(var(--AS-swiper-padding) / 2);
   color: #000;
 }
 .AS-citySwiper .AS-swiper-button-prev {
-  left: 0;
+  left: 0 !important;
+  right: none !important;
 }
 .AS-citySwiper .AS-swiper-button-next {
-  right: 0;
+  right: 0 !important;
+  left: none !important;
 }
 .AS-citySwiper .card {
   padding: var(--AS-swiper-padding);
@@ -383,7 +386,7 @@ body {
 .AS-citySwiper ol {
   list-style: none;
   padding: 0;
-  margin: auto 0 0;
+  margin: auto 0 0 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,6 +409,7 @@ body {
   font-weight: 500;
   line-height: 1em;
   letter-spacing: -0.28px;
+  margin: 0 !important;
 }
 
 /* 미디어 쿼리 시작 */
