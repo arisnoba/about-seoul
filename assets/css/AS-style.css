@@ -263,6 +263,8 @@ body {
 }
 .AS-section-03 .AS-tips li {
   width: 100%;
+  padding: 0 !important;
+  background-image: none !important;
 }
 .AS-section-03 .AS-tips li a {
   display: -webkit-box;
