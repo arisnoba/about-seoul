@@ -221,6 +221,75 @@ body {
   bottom: 18%;
   right: 15%;
 }
+.AS-section-02 .index.size-ru, .AS-section-02 .index.size-ms {
+  font-size: 11px;
+}
+.AS-section-02 .index.size-ru.nw, .AS-section-02 .index.size-ms.nw {
+  top: 35%;
+  left: 18%;
+}
+.AS-section-02 .index.size-ru.ne, .AS-section-02 .index.size-ms.ne {
+  top: 25%;
+  right: 18%;
+}
+.AS-section-02 .index.size-ru.ct, .AS-section-02 .index.size-ms.ct {
+  top: 48%;
+  left: 45%;
+}
+.AS-section-02 .index.size-ru.sw, .AS-section-02 .index.size-ms.sw {
+  bottom: 10%;
+  left: 15%;
+}
+.AS-section-02 .index.size-ru.se, .AS-section-02 .index.size-ms.se {
+  bottom: 20%;
+  right: 15%;
+}
+.AS-section-02 .index.size-jp {
+  font-size: 11px;
+}
+.AS-section-02 .index.size-jp.nw {
+  top: 35%;
+  left: 18%;
+}
+.AS-section-02 .index.size-jp.ne {
+  top: 28%;
+  right: 18%;
+}
+.AS-section-02 .index.size-jp.ct {
+  top: 48%;
+  left: 45%;
+}
+.AS-section-02 .index.size-jp.sw {
+  bottom: 25%;
+  left: 15%;
+}
+.AS-section-02 .index.size-jp.se {
+  bottom: 25%;
+  right: 15%;
+}
+.AS-section-02 .index.size-tw, .AS-section-02 .index.size-cn {
+  font-size: 12px;
+}
+.AS-section-02 .index.size-tw.nw, .AS-section-02 .index.size-cn.nw {
+  top: 35%;
+  left: 25%;
+}
+.AS-section-02 .index.size-tw.ne, .AS-section-02 .index.size-cn.ne {
+  top: 28%;
+  right: 18%;
+}
+.AS-section-02 .index.size-tw.ct, .AS-section-02 .index.size-cn.ct {
+  top: 48%;
+  left: 45%;
+}
+.AS-section-02 .index.size-tw.sw, .AS-section-02 .index.size-cn.sw {
+  bottom: 25%;
+  left: 15%;
+}
+.AS-section-02 .index.size-tw.se, .AS-section-02 .index.size-cn.se {
+  bottom: 25%;
+  right: 15%;
+}
 .AS-section-02 .index.nw {
   top: 40%;
   left: 32%;
@@ -474,6 +543,75 @@ body {
   .AS-section-02 .index.size-en.se {
     bottom: 20%;
     right: 20%;
+  }
+  .AS-section-02 .index.size-ru, .AS-section-02 .index.size-ms {
+    font-size: 13px;
+  }
+  .AS-section-02 .index.size-ru.nw, .AS-section-02 .index.size-ms.nw {
+    top: 40%;
+    left: 18%;
+  }
+  .AS-section-02 .index.size-ru.ne, .AS-section-02 .index.size-ms.ne {
+    top: 30%;
+    right: 15%;
+  }
+  .AS-section-02 .index.size-ru.ct, .AS-section-02 .index.size-ms.ct {
+    top: 50.5%;
+    left: 48.5%;
+  }
+  .AS-section-02 .index.size-ru.sw, .AS-section-02 .index.size-ms.sw {
+    bottom: 25%;
+    left: 20%;
+  }
+  .AS-section-02 .index.size-ru.se, .AS-section-02 .index.size-ms.se {
+    bottom: 20%;
+    right: 20%;
+  }
+  .AS-section-02 .index.size-jp {
+    font-size: 12px;
+  }
+  .AS-section-02 .index.size-jp.nw {
+    top: 40%;
+    left: 28%;
+  }
+  .AS-section-02 .index.size-jp.ne {
+    top: 35%;
+    right: 23%;
+  }
+  .AS-section-02 .index.size-jp.ct {
+    top: 50.5%;
+    left: 48.5%;
+  }
+  .AS-section-02 .index.size-jp.sw {
+    bottom: 30%;
+    left: 20%;
+  }
+  .AS-section-02 .index.size-jp.se {
+    bottom: 30%;
+    right: 20%;
+  }
+  .AS-section-02 .index.size-tw, .AS-section-02 .index.size-cn {
+    font-size: 13px;
+  }
+  .AS-section-02 .index.size-tw.nw, .AS-section-02 .index.size-cn.nw {
+    top: 40%;
+    left: 28%;
+  }
+  .AS-section-02 .index.size-tw.ne, .AS-section-02 .index.size-cn.ne {
+    top: 35%;
+    right: 23%;
+  }
+  .AS-section-02 .index.size-tw.ct, .AS-section-02 .index.size-cn.ct {
+    top: 50.5%;
+    left: 48.5%;
+  }
+  .AS-section-02 .index.size-tw.sw, .AS-section-02 .index.size-cn.sw {
+    bottom: 25%;
+    left: 25%;
+  }
+  .AS-section-02 .index.size-tw.se, .AS-section-02 .index.size-cn.se {
+    bottom: 25%;
+    right: 25%;
   }
   .AS-section-03 .AS-tips {
     -ms-flex-wrap: nowrap;

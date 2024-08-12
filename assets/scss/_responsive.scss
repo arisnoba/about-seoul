@@ -65,6 +65,77 @@
                right: 20%;
             }
          }
+         &.size-ru,
+         &.size-ms {
+            font-size: 13px;
+            &.nw {
+               top: 40%;
+               left: 18%;
+            }
+            &.ne {
+               top: 30%;
+               right: 15%;
+            }
+            &.ct {
+               top: 50.5%;
+               left: 48.5%;
+            }
+            &.sw {
+               bottom: 25%;
+               left: 20%;
+            }
+            &.se {
+               bottom: 20%;
+               right: 20%;
+            }
+         }
+         &.size-jp {
+            font-size: 12px;
+            &.nw {
+               top: 40%;
+               left: 28%;
+            }
+            &.ne {
+               top: 35%;
+               right: 23%;
+            }
+            &.ct {
+               top: 50.5%;
+               left: 48.5%;
+            }
+            &.sw {
+               bottom: 30%;
+               left: 20%;
+            }
+            &.se {
+               bottom: 30%;
+               right: 20%;
+            }
+         }
+         &.size-tw,
+         &.size-cn {
+            font-size: 13px;
+            &.nw {
+               top: 40%;
+               left: 28%;
+            }
+            &.ne {
+               top: 35%;
+               right: 23%;
+            }
+            &.ct {
+               top: 50.5%;
+               left: 48.5%;
+            }
+            &.sw {
+               bottom: 25%;
+               left: 25%;
+            }
+            &.se {
+               bottom: 25%;
+               right: 25%;
+            }
+         }
       }
    }
    .AS-section-03 {
